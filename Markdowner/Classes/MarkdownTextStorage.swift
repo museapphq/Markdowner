@@ -56,17 +56,9 @@ public class MarkdownTextStorage: NSTextStorage {
             font: stylesConfiguration.baseFont,
             useDynamicType: stylesConfiguration.useDynamicType
         )
-        
-        let headerElement = HeaderElement(
-            symbolsColor: stylesConfiguration.symbolsColor,
-            fontProvider: DefaultHeaderElementFontProvider(
-                font: stylesConfiguration.baseFont,
-                useDynamicType: stylesConfiguration.useDynamicType
-            )
-        )
 
         return [boldElement, italicElement, strikeElement, inlineCodeElement,
-                linkElement, bulletElement, headerElement]
+                linkElement, bulletElement]
     }
     
     public override init() {
