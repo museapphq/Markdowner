@@ -26,7 +26,7 @@ Markdowner is a library intended to edit and preview markdown in real time. It s
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rlaguilar' => 'rlac1990@gmail.com' }
-  s.source           = { :git => 'https://github.com/rlaguilar/Markdowner.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/museapphq/Markdowner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
